@@ -2,7 +2,7 @@ import com.aerospike.client.AerospikeClient;
 
 public class Main {
 	private static final Test[] tests = new Test[] {
-			new Add()
+			new Put()
 	};
 
 	public static void init() {
