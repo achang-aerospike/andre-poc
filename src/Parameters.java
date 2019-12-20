@@ -1,9 +1,3 @@
-import com.aerospike.client.async.EventLoopType;
-import com.aerospike.client.policy.AuthMode;
-import com.aerospike.client.policy.Policy;
-import com.aerospike.client.policy.TlsPolicy;
-import com.aerospike.client.policy.WritePolicy;
-
 public class Parameters {
 	String host;
 	int port;

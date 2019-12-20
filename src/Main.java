@@ -1,6 +1,10 @@
 import com.aerospike.client.AerospikeClient;
 
 public class Main {
+	private static final Test[] tests = new Test[] {
+			new Add()
+	};
+
 	public static void init() {
 		Console console = new Console();
 		console.info("Hello world!");
@@ -14,8 +18,10 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		init();
+		for (Test test : tests) {
+			test.Run();
+		}
 	}
 
 }
