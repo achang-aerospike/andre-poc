@@ -5,6 +5,13 @@
   <version>0.0.1</version>
   <name>Aerospike client - Andre POC</name>
   <description>Experiments with the Aerospike client</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.aerospike</groupId>
+      <artifactId>aerospike-client</artifactId>
+      <version>4.1.11</version>
+    </dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
