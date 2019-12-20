@@ -9,10 +9,20 @@ public class Util {
 	private static WritePolicy m_writePolicy;
 	private static Policy m_policy;
 	
-	public Util(Console console, Parameters params)
+	public Util()
 	{
-		m_console = console;
+		m_params = new Parameters();
+	}
+
+	public static void SetParams(Parameters params) {
 		m_params = params;
+	}
+
+	public static Console GetConsole() {
+		if (m_console == null) {
+			m_console = new Console();
+		}
+		return m_console;
 	}
 
 	public static AerospikeClient GetClient() {
