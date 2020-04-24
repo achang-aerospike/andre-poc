@@ -1,7 +1,7 @@
 package common;
 public class Parameters {
-	String host;
-	int port;
+	public String host;
+	public int port;
 	String user;
 	String password;
 	/*

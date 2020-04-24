@@ -1,6 +1,8 @@
 import com.aerospike.client.Key;
 import com.aerospike.client.Record;
-import com.aerospike.client.command.Buffer;
+
+import common.Console;
+import common.Util;
 
 public abstract class Test {
 	public Test() {
@@ -8,7 +10,7 @@ public abstract class Test {
 	}
 	abstract boolean Run();
 	Console m_console;
-	
+
 	void PrintRecord(Key key, Record rec) {
 		if (rec != null) {
 			m_console.info("Record found: %s / %s", key, rec);

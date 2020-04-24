@@ -2,6 +2,8 @@ import com.aerospike.client.AerospikeClient;
 import com.aerospike.client.Info;
 import com.aerospike.client.cluster.Node;
 
+import common.Util;
+
 public class TestInfo extends Test {
 
 	@Override

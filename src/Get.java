@@ -1,8 +1,10 @@
+
 import com.aerospike.client.AerospikeClient;
-import com.aerospike.client.Bin;
 import com.aerospike.client.Key;
 import com.aerospike.client.Record;
 import com.aerospike.client.policy.Policy;
+
+import common.Util;
 
 public class Get extends Test {
 

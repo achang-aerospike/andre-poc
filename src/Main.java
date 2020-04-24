@@ -1,4 +1,6 @@
-import com.aerospike.client.AerospikeClient;
+import common.Console;
+import common.Parameters;
+import common.Util;
 
 public class Main {
 	private static final Test[] tests = new Test[] {

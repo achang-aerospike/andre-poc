@@ -1,4 +1,5 @@
 package common;
+
 import com.aerospike.client.AerospikeClient;
 import com.aerospike.client.policy.Policy;
 import com.aerospike.client.policy.WritePolicy;

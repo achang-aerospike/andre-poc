@@ -3,6 +3,8 @@ import com.aerospike.client.Bin;
 import com.aerospike.client.Key;
 import com.aerospike.client.policy.WritePolicy;
 
+import common.Util;
+
 public class Put extends Test {
 
 	@Override
